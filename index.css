@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+
+}
+html{
+  scroll-behavior: smooth;
+
+}
+body {
+  font-family: Garamond, serif;
+}
+.parallax {
+  /* The image used */
+  background-image: url('download.png');
+
+  /* Full height */
+  height:600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img{
+
+  background-image: url('parallax.jpg');
+
+  /* Full height */
+  height:400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2{
+
+  background-image: url('imgbck2.png');
+
+  /* Full height */
+  height:460px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sticker{
+  padding-top:  6px;
+  padding-bottom:4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+
+}
+#mainsticker{
+  padding : 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:140px;
+  height:120px;
+
+}
+#nav1
+{
+
+
+  position: relative;
+  margin-top: 20px;
+  }
+#table1{
+  margin-left:auto;
+  margin-right:auto;
+
+  }
+th{
+
+  padding-top: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 40px;
+  color: black;
+
+}
+a {
+    text-decoration: none !important;
+    color: black;
+    padding:4px;
+}
+
+td{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 28px;
+
+}
+h4{
+  font-size:14px;
+  text-align: center;
+  padding-top: 40px;
+}
+h1{
+  text-align: center;
+  padding : 10px;
+
+  }
+#table2{
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom: 20px;
+}
+#downarrow{
+  padding : 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40px;
+  height:40px;
+}
+
+#contacts{
+  align: center;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#myprojects{
+  margin-top: 400px;
+  border-radius: 26px;
+  background-color: 	#f3f3f3;
+  padding-top : 0px;
+
+}
+#about{
+    border-radius: 26px;
+  padding: 2px;
+  background-color: 	#f3f3f3;
+  height: 200px;
+}
+#contact{
+    border-radius: 26px;
+  background-color: 	#f3f3f3;
+}
+.p1{
+  text-align: center;
+  padding:20px;
+
+  font-size:29px;
+  padding-left:120px;
+  padding-right:120px;
+  margin-left:40px;
+  margin-right:40px;
+  }
+#img2{
+
+  background-image: imgbck2.png;
+  }
+.tt{
+  display: block;
+
+}
+#aboutpa{
+  margin-left:30px;
+  margin-right:40px;
+}
+.footer{
+  width:20px;
+  height:20px;
+
+
+}
+#footba{
+  height: auto;
+    margin: 0 auto;
+    padding-left:  700px;
+
+        padding-bottom:9px;
+}
+.Cm{
+  padding: 2px;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width:200px;
+  height:160px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.formcove{
+  padding-left:  auto;
+  padding-right:auto;
+  position: relative;
+  margin-left: 640px;
+}
+.container > img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+#author{
+ width:170px;height:170px;margin-left:30px;
+ float:left;padding-top:20px;
+}
+input[type=text] {
+  width: 280px;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea{
+
+width: 280px;
+padding: 16px 20px;
+margin: 8px 0;
+box-sizing: border-box;}
